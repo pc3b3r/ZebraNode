@@ -1,0 +1,12 @@
+
+N
+Q80,0
+A120,0,0,4,1,1,N,"   ------ "
+A10,40,0,4,1,1,N," ${userInfo.nome}"
+A10,80,0,4,1,1,N," ${userInfo.cognome}"
+A10,120,0,5,1,1,N,"    ${userInfo.stanza}"
+A10,200,0,3,2,2,N," ${userInfo.albergo}"
+A10,270,0,4,1,1,N,"---- ${data.getDate()}/${data.getMonth()+1} ----"
+A10,350,0,4,1,1,N," RISTORO: ${userInfo.ristoro}"
+A10,440,0,4,1,1,N,"${colazione}"
+P1
